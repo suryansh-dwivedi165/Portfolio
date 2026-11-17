@@ -1,0 +1,9 @@
+.section { padding: 115px 8.5%; position: relative; }
+.section-kicker { color: #168cff; font: 500 11px "DM Mono", monospace; letter-spacing: 2.5px; text-transform: uppercase; }
+.section-title { margin: 15px 0 18px; font-size: clamp(36px, 5vw, 64px); line-height: 1.05; letter-spacing: -.06em; }
+.section-title span { color: #168cff; }
+.section-copy { color: #94a3b8; line-height: 1.85; max-width: 650px; font-size: 15px; }
+.section-head { margin-bottom: 48px; }
+.accent-link { color: #60b4ff; text-decoration: none; border-bottom: 1px solid rgba(96,180,255,.45); padding-bottom: 4px; }
+.accent-link:hover { color: white; border-color: white; }
+@media (max-width: 650px) { .section { padding: 82px 7%; } }
